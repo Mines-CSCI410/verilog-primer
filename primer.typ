@@ -48,7 +48,7 @@ Take, for instance the following example module, which models a NAND gate:
   ```
 ]<module>
 
-The module definition lays out the ports that provide the interface to the module, and those are categorized into  ```Verilog input```, ```Verilog output```, or ```Verilog inout``` inside the module.
+The module definition lays out the ports that provide the interface to the module, and those are categorized into ```Verilog input```, ```Verilog output```, or ```Verilog inout``` inside the module.
 The default type of these ports is ```Verilog wire```, which is analogous to (and you won't believe this) a wire, in that it represents a single bit (`0` or `1`) and connects components together.
 
 An instance of a module is declared using the module name, an instance name, and the port mapping, like so:
