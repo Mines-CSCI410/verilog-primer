@@ -152,7 +152,7 @@ Implicit assignment is assigning the value of a wire as it is declared:
 wire signal = load ? in : out;
 ```
 
-While we ask you not to use continuous assignment in Project 1 so you can get a grasp on how gates fit together, We recommend using them in Projects 2 & 3. You'll find they simplify your modules (and file structure) significantly.
+While we ask you not to use continuous assignment in Project 1 so you can get a grasp on how gates fit together, we recommend using them in Projects 2 & 3. You'll find they simplify your modules (and file structure) significantly.
 
 = Parameters
 Thus far, the only way we've been able to influence the behavior of a module is by passing it input.
