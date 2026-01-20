@@ -147,7 +147,7 @@ Continuous Assignment may be Explicit or Implicit. For explicit assignment, use 
 wire out;
 assign out = a & b;
 ```
-Explicit assignment is assigning the value of a wire as it is declared:
+Implicit assignment is assigning the value of a wire as it is declared:
 ```Verilog
 wire signal = load ? in : out;
 ```
